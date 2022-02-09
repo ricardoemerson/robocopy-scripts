@@ -37,28 +37,29 @@ set path[21]=AppData\Roaming\Docker
 set path[22]=AppData\Roaming\Docker Desktop
 set path[23]=AppData\Roaming\espanso
 set path[24]=AppData\Roaming\FileZilla
-set path[25]=AppData\Roaming\Insomnia
-set path[26]=AppData\Roaming\JAM Software
-set path[27]=AppData\Roaming\Logishrd
-set path[28]=AppData\Roaming\Microsoft\Windows\PowerShell
-set path[29]=AppData\Roaming\NetBeans
-set path[30]=AppData\Roaming\Nucleo
-set path[31]=AppData\Roaming\obs-studio
-set path[32]=AppData\Roaming\PLSQL Developer
-set path[33]=AppData\Roaming\powershell
-set path[34]=AppData\Roaming\qBittorrent
-set path[35]=AppData\Roaming\Spotify
-set path[36]=AppData\Roaming\Subversion
-set path[37]=AppData\Roaming\TeamViewer
-set path[38]=AppData\Roaming\Telegram Desktop
-set path[39]=AppData\Roaming\TortoiseSVN
-set path[40]=AppData\Roaming\Typora
-set path[41]=AppData\Roaming\Udeler
-set path[42]=AppData\Roaming\vlc
-set path[43]=AppData\Roaming\WhatsApp
-set path[44]=AppData\Roaming\WizTree3
+set path[25]=AppData\Roaming\Google
+set path[26]=AppData\Roaming\Insomnia
+set path[27]=AppData\Roaming\JAM Software
+set path[28]=AppData\Roaming\Logishrd
+set path[29]=AppData\Roaming\Microsoft\Windows\PowerShell
+set path[30]=AppData\Roaming\NetBeans
+set path[31]=AppData\Roaming\Nucleo
+set path[32]=AppData\Roaming\obs-studio
+set path[33]=AppData\Roaming\PLSQL Developer
+set path[34]=AppData\Roaming\powershell
+set path[35]=AppData\Roaming\qBittorrent
+set path[36]=AppData\Roaming\Spotify
+set path[37]=AppData\Roaming\Subversion
+set path[38]=AppData\Roaming\TeamViewer
+set path[39]=AppData\Roaming\Telegram Desktop
+set path[40]=AppData\Roaming\TortoiseSVN
+set path[41]=AppData\Roaming\Typora
+set path[42]=AppData\Roaming\Udeler
+set path[43]=AppData\Roaming\vlc
+set path[44]=AppData\Roaming\WhatsApp
+set path[45]=AppData\Roaming\WizTree3
 
-for /l %%p in (0,1,44) do (
+for /l %%p in (0,1,45) do (
    Robocopy.exe "%srcPath%\!path[%%p]!" "%dstPath%\!path[%%p]!" %params%
 )
 
