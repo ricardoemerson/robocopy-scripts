@@ -10,6 +10,6 @@ set userDirectory=Ricardo
 set srcPath=D:\Downloads\Programas
 set dstPath=E:\Programas
 
-del "C:\tools\robocop-scripts\robocopy-log.txt"
+del "C:\tools\robocopy-scripts\robocopy-log.txt"
 
 Robocopy.exe "%srcPath%" "%dstPath%" %params%
