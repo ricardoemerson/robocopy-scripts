@@ -34,7 +34,7 @@ set path[18]=AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\Loca
 set path[19]=AppData\Local\qBittorrent
 set path[20]=AppData\Local\TeamViewer
 set path[21]=AppData\Roaming\Apowersoft\GitMind
-set path[22]=AppData\Roaming\Code
+set path[22]=AppData\Roaming\Code\User
 set path[23]=AppData\Roaming\DBeaverData
 set path[24]=AppData\Roaming\Docker
 set path[25]=AppData\Roaming\Docker Desktop
@@ -68,7 +68,7 @@ set path[52]=AppData\Roaming\WhatsApp
 set path[53]=AppData\Roaming\WizTree3
 
 for /l %%p in (0,1,53) do (
-   Robocopy.exe "%srcPath%\!path[%%p]!" "%dstPath%\!path[%%p]!" %params%
+   Robocopy.exe "%srcPath%\!path[%%p]!" "%dstPath%\!path[%%p]!" %params% /XD "E:\AppData Backup\AppData\Roaming\Code\User\globalStorage" "E:\AppData Backup\AppData\Roaming\Code\User\workspaceStorage" "E:\AppData Backup\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"
 )
 
 Robocopy.exe "%srcPath%" "%dstPath%" .gitconfig .ps_history .wslconfig .yarnrc /LOG+:robocopy-log.txt
