@@ -1,13 +1,13 @@
 @echo off
 
-@REM set params=/MIR /MT /W:15 /R:7 /NS /NC /NFL /NDL /NP /LOG+:robocopy-log.txt
+@REM set params=/MT /W:15 /R:7 /NS /NC /NFL /NDL /NP /LOG+:robocopy-log.txt
 
-set params=/MIR /MT /W:10 /R:3 /NP /LOG+:robocopy-log.txt
+set params=/E /MT /W:10 /R:3 /NP /LOG+:robocopy-log.txt
 
 set userDirectory=Ricardo
 
-set srcPath=C:\Users\%userDirectory%
-set dstPath=D:\Configurações\AppData Backup
+set srcPath=D:\Configurações\AppData Backup
+set dstPath=C:\Users\%userDirectory%
 
 del "C:\tools\robocopy-scripts\robocopy-log.txt"
 
@@ -68,7 +68,7 @@ set path[52]=AppData\Roaming\WhatsApp
 set path[53]=AppData\Roaming\WizTree3
 
 for /l %%p in (0,1,53) do (
-   Robocopy.exe "%srcPath%\!path[%%p]!" "%dstPath%\!path[%%p]!" %params% /XD "C:\Users\Ricardo\AppData\Local\Google\AndroidStudio2021.1\tmp" "C:\Users\Ricardo\AppData\Local\Google\AndroidStudio2020.3\tmp" "C:\Users\Ricardo\AppData\Local\Google\Chrome\User Data\Default\Code" "C:\Users\Ricardo\AppData\Local\Google\Chrome\User Data\Default\Code Cache" "C:\Users\Ricardo\AppData\Local\Google\Chrome\User Data\Default\Service Worker"
+   Robocopy.exe "%srcPath%\!path[%%p]!" "%dstPath%\!path[%%p]!" %params%
 )
 
 Robocopy.exe "%srcPath%" "%dstPath%" .gitconfig .ps_history .wslconfig .yarnrc /LOG+:robocopy-log.txt
