@@ -7,7 +7,7 @@ set params=/MIR /MT /W:10 /R:3 /NP /LOG+:robocopy-log.txt
 set userDirectory=Ricardo
 
 set srcPath=C:\Users\%userDirectory%
-set dstPath=D:\Configurações\AppData Backup
+set dstPath=D:\Backup\AppData
 
 del "C:\tools\robocopy-scripts\robocopy-log.txt"
 
