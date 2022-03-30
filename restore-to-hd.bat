@@ -53,26 +53,27 @@ set path[37]=AppData\Roaming\LGHUB
 set path[38]=AppData\Roaming\Logishrd
 set path[39]=AppData\Roaming\Macro Deck
 set path[40]=AppData\Roaming\Microsoft\Windows\PowerShell
-set path[41]=AppData\Roaming\NetBeans
-set path[42]=AppData\Roaming\obs-studio
-set path[43]=AppData\Roaming\PLSQL Developer
-set path[44]=AppData\Roaming\Postman
-set path[45]=AppData\Roaming\powershell
-set path[46]=AppData\Roaming\qBittorrent
-set path[47]=AppData\Roaming\ScreenToGif
-set path[48]=AppData\Roaming\Spotify
-set path[49]=AppData\Roaming\Subversion
-set path[50]=AppData\Roaming\TeamViewer
-set path[51]=AppData\Roaming\Telegram Desktop
-set path[52]=AppData\Roaming\TortoiseSVN
-set path[53]=AppData\Roaming\Typora
-set path[54]=AppData\Roaming\Udeler
-set path[55]=AppData\Roaming\vlc
-set path[56]=AppData\Roaming\WhatsApp
-set path[57]=AppData\Roaming\WizTree3
+set path[41]=AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Apps do Chrome
+set path[42]=AppData\Roaming\NetBeans
+set path[43]=AppData\Roaming\obs-studio
+set path[44]=AppData\Roaming\PLSQL Developer
+set path[45]=AppData\Roaming\Postman
+set path[46]=AppData\Roaming\powershell
+set path[47]=AppData\Roaming\qBittorrent
+set path[48]=AppData\Roaming\ScreenToGif
+set path[49]=AppData\Roaming\Spotify
+set path[50]=AppData\Roaming\Subversion
+set path[51]=AppData\Roaming\TeamViewer
+set path[52]=AppData\Roaming\Telegram Desktop
+set path[53]=AppData\Roaming\TortoiseSVN
+set path[54]=AppData\Roaming\Typora
+set path[55]=AppData\Roaming\Udeler
+set path[56]=AppData\Roaming\vlc
+set path[57]=AppData\Roaming\WhatsApp
+set path[58]=AppData\Roaming\WizTree3
 
-for /l %%p in (0,1,57) do (
-  echo  ❯❯❯ Copiando !path[%%p]!...
+for /l %%p in (0,1,58) do (
+  echo  - Copiando !path[%%p]!...
 
   Robocopy.exe "%srcPath%\!path[%%p]!" "%dstPath%\!path[%%p]!" %params%
 )
