@@ -16,5 +16,7 @@ set path[0]=Canal Youtube
 set path[1]=Obs Studio
 
 for /l %%p in (0,1,1) do (
-   Robocopy.exe "%srcPath%\!path[%%p]!" "%dstPath%\!path[%%p]!" %params%
+  echo  - Copiando !path[%%p]!...
+
+  Robocopy.exe "%srcPath%\!path[%%p]!" "%dstPath%\!path[%%p]!" %params%
 )
