@@ -49,35 +49,37 @@ set path[33]=AppData\Roaming\Docker Desktop
 set path[34]=AppData\Roaming\espanso
 set path[35]=AppData\Roaming\flameshot
 set path[36]=AppData\Roaming\FileZilla
-set path[37]=AppData\Roaming\Google
-set path[38]=AppData\Roaming\Insomnia
-set path[39]=AppData\Roaming\JAM Software
-set path[40]=AppData\Roaming\LGHUB
-set path[41]=AppData\Roaming\Logishrd
-set path[42]=AppData\Roaming\Macro Deck
-set path[43]=AppData\Roaming\Microsoft\Windows\PowerShell
-set path[44]=AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Apps do Chrome
-set path[45]=AppData\Roaming\Mozilla
-set path[46]=AppData\Roaming\NetBeans
-set path[47]=AppData\Roaming\obs-studio
-set path[48]=AppData\Roaming\PLSQL Developer
-set path[49]=AppData\Roaming\Postman
-set path[50]=AppData\Roaming\powershell
-set path[51]=AppData\Roaming\qBittorrent
-set path[52]=AppData\Roaming\ScreenToGif
-set path[53]=AppData\Roaming\Spotify
-set path[54]=AppData\Roaming\Subversion
-set path[55]=AppData\Roaming\TeamViewer
-set path[56]=AppData\Roaming\Telegram Desktop
-set path[57]=AppData\Roaming\TortoiseSVN
-set path[58]=AppData\Roaming\Typora
-set path[59]=AppData\Roaming\Udeler
-set path[60]=AppData\Roaming\vlc
-set path[61]=AppData\Roaming\WhatsApp
-set path[62]=AppData\Roaming\WizTree3
-set path[63]=AppData\Roaming\VOVSOFT
+set path[37]=AppData\Roaming\GHISLER
+set path[38]=AppData\Roaming\Google
+set path[39]=AppData\Roaming\Insomnia
+set path[40]=AppData\Roaming\JAM Software
+set path[41]=AppData\Roaming\LGHUB
+set path[42]=AppData\Roaming\Logishrd
+set path[43]=AppData\Roaming\Macro Deck
+set path[44]=AppData\Roaming\Microsoft\Windows\PowerShell
+set path[45]=AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Apps do Chrome
+set path[46]=AppData\Roaming\Mozilla
+set path[47]=AppData\Roaming\mini-video-me
+set path[48]=AppData\Roaming\NetBeans
+set path[49]=AppData\Roaming\obs-studio
+set path[50]=AppData\Roaming\PLSQL Developer
+set path[51]=AppData\Roaming\Postman
+set path[52]=AppData\Roaming\powershell
+set path[53]=AppData\Roaming\qBittorrent
+set path[54]=AppData\Roaming\ScreenToGif
+set path[55]=AppData\Roaming\Spotify
+set path[56]=AppData\Roaming\Subversion
+set path[57]=AppData\Roaming\TeamViewer
+set path[58]=AppData\Roaming\Telegram Desktop
+set path[59]=AppData\Roaming\TortoiseSVN
+set path[60]=AppData\Roaming\Typora
+set path[61]=AppData\Roaming\Udeler
+set path[62]=AppData\Roaming\vlc
+set path[63]=AppData\Roaming\WhatsApp
+set path[64]=AppData\Roaming\WizTree3
+set path[65]=AppData\Roaming\VOVSOFT
 
-for /l %%p in (0,1,63) do (
+for /l %%p in (0,1,65) do (
   echo  - Copiando !path[%%p]!...
 
   Robocopy.exe "%srcPath%\!path[%%p]!" "%dstPath%\!path[%%p]!" %params%
