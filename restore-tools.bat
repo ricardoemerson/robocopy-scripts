@@ -4,10 +4,10 @@
 
 set params=/E /MT /W:10 /R:3 /NP /LOG+:robocopy-log.txt
 
-set userDirectory=ricardojardim
+set userDirectory=ricardo
 
-set srcPath=d:\Ricardo\Desenvolvimento\Search
-set dstPath=C:\Users\ricardo\Desenvolvimento\Search
+set srcPath=d:\Ricardo\tools
+set dstPath=C:\tools
 
 del "C:\tools\robocopy-scripts\robocopy-log.txt"
 
