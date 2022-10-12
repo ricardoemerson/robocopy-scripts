@@ -12,7 +12,7 @@ set dstPath=E:\AppData Backup
 del "C:\tools\robocopy-scripts\robocopy-log.txt"
 
 setlocal enabledelayedexpansion
-set path[0]=.android
+set path[47]=.android
 set path[1]=.aws
 set path[2]=.config
 set path[3]=.docker
@@ -59,27 +59,28 @@ set path[43]=AppData\Roaming\Macro Deck
 set path[44]=AppData\Roaming\Microsoft\Windows\PowerShell
 set path[45]=AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Apps do Chrome
 set path[46]=AppData\Roaming\Mozilla
-set path[47]=AppData\Roaming\mini-video-me
+set path[0]=AppData\Roaming\mini-video-me
 set path[48]=AppData\Roaming\NetBeans
-set path[49]=AppData\Roaming\obs-studio
-set path[50]=AppData\Roaming\PLSQL Developer
-set path[51]=AppData\Roaming\Postman
-set path[52]=AppData\Roaming\powershell
-set path[53]=AppData\Roaming\qBittorrent
-set path[54]=AppData\Roaming\ScreenToGif
-set path[55]=AppData\Roaming\Spotify
-set path[56]=AppData\Roaming\Subversion
-set path[57]=AppData\Roaming\TeamViewer
-set path[58]=AppData\Roaming\Telegram Desktop
-set path[59]=AppData\Roaming\TortoiseSVN
-set path[60]=AppData\Roaming\Typora
-set path[61]=AppData\Roaming\Udeler
-set path[62]=AppData\Roaming\vlc
-set path[63]=AppData\Roaming\WhatsApp
-set path[64]=AppData\Roaming\WizTree3
-set path[65]=AppData\Roaming\VOVSOFT
+set path[49]=AppData\Roaming\obsidian
+set path[50]=AppData\Roaming\obs-studio
+set path[51]=AppData\Roaming\PLSQL Developer
+set path[52]=AppData\Roaming\Postman
+set path[53]=AppData\Roaming\powershell
+set path[54]=AppData\Roaming\qBittorrent
+set path[55]=AppData\Roaming\ScreenToGif
+set path[56]=AppData\Roaming\Spotify
+set path[57]=AppData\Roaming\Subversion
+set path[58]=AppData\Roaming\TeamViewer
+set path[59]=AppData\Roaming\Telegram Desktop
+set path[60]=AppData\Roaming\TortoiseSVN
+set path[61]=AppData\Roaming\Typora
+set path[62]=AppData\Roaming\Udeler
+set path[63]=AppData\Roaming\vlc
+set path[64]=AppData\Roaming\WhatsApp
+set path[65]=AppData\Roaming\WizTree3
+set path[66]=AppData\Roaming\VOVSOFT
 
-for /l %%p in (0,1,65) do (
+for /l %%p in (0,1,66) do (
   echo  - Copiando !path[%%p]!...
 
   Robocopy.exe "%srcPath%\!path[%%p]!" "%dstPath%\!path[%%p]!" %params% /XD "C:\Users\Ricardo\AppData\Local\Google\AndroidStudio2021.1\tmp" "C:\Users\Ricardo\AppData\Local\Google\AndroidStudio2020.3\tmp" "C:\Users\Ricardo\AppData\Local\Google\Chrome\User Data\Default\Code" "C:\Users\Ricardo\AppData\Local\Google\Chrome\User Data\Default\Code Cache" "C:\Users\Ricardo\AppData\Local\Google\Chrome\User Data\Default\Service Worker" "C:\Users\Ricardo\AppData\Roaming\Macro Deck\credentials" "C:\Users\Ricardo\AppData\Local\Mozilla\Firefox\Profiles\1f1inxz9.default-release\cache2"
