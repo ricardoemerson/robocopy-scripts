@@ -4,7 +4,7 @@
 
 set params=/MIR /MT /W:10 /R:3 /NP /LOG:robocopy-log.txt
 
-set srcPath=C:\Users\Ricardo\Dropbox
-set dstPath=D:\Dropbox
+set srcPath=E:\Pictures
+set dstPath=D:\Pictures
 
 Robocopy.exe "%srcPath%" "%dstPath%" %params%
