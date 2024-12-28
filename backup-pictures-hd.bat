@@ -7,6 +7,6 @@ set params=/MIR /MT /W:10 /R:3 /NP /LOG:robocopy-log.txt
 set userDirectory=Ricardo
 
 set srcPath=D:\Pictures
-set dstPath=E:\Ricardo\Pictures
+set dstPath=E:\Pictures
 
 Robocopy.exe "%srcPath%" "%dstPath%" %params%
