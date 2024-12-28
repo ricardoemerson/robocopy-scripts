@@ -1,0 +1,163 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy para Windows                              
+-------------------------------------------------------------------------------
+
+  Iniciado: quarta-feira, 18 de dezembro de 2024 19:56:29
+   Origem : C:\tools\
+     Destino : D:\Desenvolvimento\Search\Backups\note-search\tools\
+
+    Arquivos: *.*
+	    
+ Diret¢rios Exc: C:\tools\Java\default
+	    
+  Op‡äes: *.* /S /E /DCOPY:DA /COPY:DAT /PURGE /MIR /NP /MT:8 /R:3 /W:10 
+
+------------------------------------------------------------------------------
+
+	  Novo Arquivo		   7.8 m	C:\tools\banca_digital.apk
+	  Novo Arquivo		    5634	C:\tools\sslvpn-ricardojardim@search-br.com.br-client-config.ovpn
+	  Novo Arquivo		   2.7 m	C:\tools\AnyDesk\AnyDesk.exe
+	  Novo Arquivo		    9967	C:\tools\bat\bat.1
+	  Novo Arquivo		   4.8 m	C:\tools\bat\bat.exe
+	  Novo Arquivo		   41581	C:\tools\bat\CHANGELOG.md
+	  Novo Arquivo		   11558	C:\tools\bat\LICENSE-APACHE
+	  Novo Arquivo		    1116	C:\tools\bat\LICENSE-MIT
+	  Novo Arquivo		   28983	C:\tools\bat\README.md
+	  Novo Arquivo		     600	C:\tools\CrystalDiskInfo\DiskInfo.ini
+	  Novo Arquivo		   2.5 m	C:\tools\CrystalDiskInfo\DiskInfo32.exe
+	  Novo Arquivo		   2.7 m	C:\tools\CrystalDiskInfo\DiskInfo64.exe
+	  Novo Arquivo		   2.8 m	C:\tools\CrystalDiskInfo\DiskInfoA64.exe
+	  Novo Arquivo		     966	C:\tools\CrystalDiskInfo\ReadMe.txt
+	  Novo Arquivo		   13741	C:\tools\Apache HTTP Server\ABOUT_APACHE.txt
+	  Novo Arquivo		      61	C:\tools\Apache HTTP Server\CHANGES.txt
+	  Novo Arquivo		     310	C:\tools\Apache HTTP Server\INSTALL.txt
+	  Novo Arquivo		   52395	C:\tools\Apache HTTP Server\LICENSE.txt
+	  Novo Arquivo		    2865	C:\tools\Apache HTTP Server\NOTICE.txt
+	  Novo Arquivo		    4752	C:\tools\Apache HTTP Server\README.txt
+	  Novo Arquivo		     517	C:\tools\CrystalDiskInfo9_2_1\DiskInfo.ini
+	  Novo Arquivo		   2.5 m	C:\tools\CrystalDiskInfo9_2_1\DiskInfo32.exe
+	  Novo Arquivo		   2.7 m	C:\tools\CrystalDiskInfo9_2_1\DiskInfo64.exe
+	  Novo Arquivo		   2.8 m	C:\tools\CrystalDiskInfo9_2_1\DiskInfoA64.exe
+	  Novo Arquivo		     966	C:\tools\CrystalDiskInfo9_2_1\ReadMe.txt
+	  Novo Arquivo		  698912	C:\tools\CrystalDiskMark8_0_4c\DiskMark32.exe
+	  Novo Arquivo		  876064	C:\tools\CrystalDiskMark8_0_4c\DiskMark64.exe
+	  Novo Arquivo		     120	C:\tools\CrystalDiskMark8_0_4c\DiskMark64.ini
+	  Novo Arquivo		  689184	C:\tools\CrystalDiskMark8_0_4c\DiskMarkA32.exe
+	  Novo Arquivo		  886040	C:\tools\CrystalDiskMark8_0_4c\DiskMarkA64.exe
+	  Novo Arquivo		     637	C:\tools\CrystalDiskMark8_0_4c\ReadMe.txt
+	  Novo Arquivo		    1821	C:\tools\dart-sdk\dartdoc_options.yaml
+	  Novo Arquivo		    1502	C:\tools\dart-sdk\LICENSE
+	  Novo Arquivo		    1271	C:\tools\dart-sdk\README
+	  Novo Arquivo		      42	C:\tools\dart-sdk\revision
+	  Novo Arquivo		     204	C:\tools\dart-sdk\sdk_packages.yaml
+	  Novo Arquivo		       7	C:\tools\dart-sdk\version
+	  Novo Arquivo		   1.1 m	C:\tools\Dism++10.1.1002.1B\Dism++ARM64.exe
+	  Novo Arquivo		   1.0 m	C:\tools\Dism++10.1.1002.1B\Dism++x64.exe
+	  Novo Arquivo		  749568	C:\tools\Dism++10.1.1002.1B\Dism++x86.exe
+	  Novo Arquivo		   10582	C:\tools\Dism++10.1.1002.1B\ReadMe for NCleaner.txt
+	  Novo Arquivo		       0	C:\tools\Dism++10.1.1002.1B\?? Dism++x86 ????.txt
+	  Novo Arquivo		       0	C:\tools\Dism++10.1.1002.1B\????,?????!!!.txt
+	  Novo Arquivo		  11.1 m	C:\tools\FFmpeg for Audacity\avcodec-55.dll
+	  Novo Arquivo		   2.1 m	C:\tools\FFmpeg for Audacity\avformat-55.dll
+	  Novo Arquivo		  841470	C:\tools\FFmpeg for Audacity\avutil-52.dll
+	  Novo Arquivo		   99146	C:\tools\FFmpeg for Audacity\libbz2-1.dll
+	  Novo Arquivo		   1.0 m	C:\tools\FFmpeg for Audacity\libiconv-2.dll
+	  Novo Arquivo		   59643	C:\tools\FFmpeg for Audacity\libwinpthread-1.dll
+	  Novo Arquivo		   35821	C:\tools\FFmpeg for Audacity\License.txt
+	  Novo Arquivo		  116428	C:\tools\FFmpeg for Audacity\zlib1.dll
+	  Novo Arquivo		 219.2 m	C:\tools\gradle\gradle-8.11-all.zip
+	  Novo Arquivo		   17403	C:\tools\jmeter\LICENSE
+	  Novo Arquivo		     172	C:\tools\jmeter\NOTICE
+	  Novo Arquivo		   10313	C:\tools\jmeter\README.md
+	  Novo Arquivo		   5.0 m	C:\tools\KeyStrokes\Carnac.exe
+	  Novo Arquivo		     161	C:\tools\KeyStrokes\Carnac.exe.config
+	  Novo Arquivo		   75264	C:\tools\KeyStrokes\Carnac.pdb
+	  Novo Arquivo		   45185	C:\tools\magick\ChangeLog
+	  Novo Arquivo		    1383	C:\tools\magick\colors.xml
+	  Novo Arquivo		  14.9 m	C:\tools\magick\compare.exe
+	  Novo Arquivo		  14.9 m	C:\tools\magick\composite.exe
+	  Novo Arquivo		     880	C:\tools\magick\configure.xml
+	  Novo Arquivo		  14.9 m	C:\tools\magick\conjure.exe
+	  Novo Arquivo		  14.9 m	C:\tools\magick\convert.exe
+	  Novo Arquivo		  992824	C:\tools\magick\dcraw.exe
+	  Novo Arquivo		    9592	C:\tools\magick\delegates.xml
+	  Novo Arquivo		   51022	C:\tools\magick\english.xml
+	  Novo Arquivo		  35.8 m	C:\tools\magick\ffmpeg.exe
+	  Novo Arquivo		  120888	C:\tools\magick\hp2xx.exe
+	  Novo Arquivo		  14.9 m	C:\tools\magick\identify.exe
+	  Novo Arquivo		    7471	C:\tools\magick\ImageMagick.rdf
+	  Novo Arquivo		  17.1 m	C:\tools\magick\IMDisplay.exe
+	  Novo Arquivo		   18854	C:\tools\magick\index.html
+	  Novo Arquivo		   12447	C:\tools\magick\LICENSE.txt
+	  Novo Arquivo		    2461	C:\tools\magick\locale.xml
+	  Novo Arquivo		    1642	C:\tools\magick\log.xml
+	  Novo Arquivo		     888	C:\tools\magick\magic.xml
+	  Novo Arquivo		  14.9 m	C:\tools\magick\magick.exe
+	  Novo Arquivo		  134216	C:\tools\magick\mime.xml
+	  Novo Arquivo		  14.9 m	C:\tools\magick\mogrify.exe
+	  Novo Arquivo		  14.9 m	C:\tools\magick\montage.exe
+	  Novo Arquivo		   65350	C:\tools\magick\NOTICE.txt
+	  Novo Arquivo		    3157	C:\tools\magick\policy.xml
+	  Novo Arquivo		    2369	C:\tools\magick\quantization-table.xml
+	  Novo Arquivo		    5758	C:\tools\magick\README.txt
+	  Novo Arquivo		   60960	C:\tools\magick\sRGB.icc
+	  Novo Arquivo		  14.9 m	C:\tools\magick\stream.exe
+	  Novo Arquivo		   11302	C:\tools\magick\thresholds.xml
+	  Novo Arquivo		    9415	C:\tools\magick\type-ghostscript.xml
+	  Novo Arquivo		     670	C:\tools\magick\type.xml
+	  Novo Arquivo		   1.0 m	C:\tools\One Commander\7z.dll
+	  Novo Arquivo		   1.6 m	C:\tools\One Commander\7z64.dll
+	  Novo Arquivo		  367616	C:\tools\One Commander\AlphaFS.dll
+	  Novo Arquivo		   1.0 m	C:\tools\One Commander\AlphaFS.pdb
+	  Novo Arquivo		     450	C:\tools\One Commander\FirstRunNotice.txt
+	  Novo Arquivo		  227840	C:\tools\One Commander\FluentWPF.dll
+	  Novo Arquivo		   23600	C:\tools\One Commander\FluentWPF.pdb
+	  Novo Arquivo		   97280	C:\tools\One Commander\Hardcodet.NotifyIcon.Wpf.dll
+	  Novo Arquivo		    1868	C:\tools\One Commander\license.txt
+	  Novo Arquivo		  487424	C:\tools\One Commander\LiteDB.dll
+	  Novo Arquivo		  19.1 m	C:\tools\One Commander\Magick.NET-Q16-AnyCPU.dll
+	  Novo Arquivo		   1.3 m	C:\tools\One Commander\Magick.NET.Core.dll
+	  Novo Arquivo		  120200	C:\tools\One Commander\Microsoft.AI.ServerTelemetryChannel.dll
+	  Novo Arquivo		  380416	C:\tools\One Commander\Microsoft.AI.ServerTelemetryChannel.pdb
+	  Novo Arquivo		  379768	C:\tools\One Commander\Microsoft.ApplicationInsights.dll
+	  Novo Arquivo		   1.5 m	C:\tools\One Commander\Microsoft.ApplicationInsights.pdb
+	  Novo Arquivo		   22144	C:\tools\One Commander\Microsoft.Bcl.AsyncInterfaces.dll
+	  Novo Arquivo		   22392	C:\tools\One Commander\Microsoft.Bcl.HashCode.dll
+	  Novo Arquivo		   5.9 m	C:\tools\One Commander\Microsoft.CodeAnalysis.CSharp.dll
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy para Windows                              
+-------------------------------------------------------------------------------
+
+  Iniciado: quarta-feira, 18 de dezembro de 2024 21:32:41
+   Origem : C:\Users\Ricardo\
+     Destino : D:\Desenvolvimento\Search\Backups\note-search\AppData\
+
+    Arquivos: .gitconfig
+	    .ps_history
+	    .wslconfig
+	    .yarnrc
+	    
+  Op‡äes: /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   4	C:\Users\Ricardo\
+	  Novo Arquivo		     600	.gitconfig100%  
+	  Novo Arquivo		   31118	.ps_history100%  
+	  Novo Arquivo		      30	.wslconfig100%  
+	  Novo Arquivo		     121	.yarnrc100%  
+
+------------------------------------------------------------------------------
+
+               Total   Copiada  IgnoradaIncompatibilidade     FALHA    Extras
+Diret¢rios:         1         0         1         0         0         0
+ Arquivos:         4         4         0         0         0         0
+    Bytes:    31.1 k    31.1 k         0         0         0         0
+N.§ de Vezes:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+Velocidade:           3.186.900 Bytes/s.
+Velocidade:             182,356 MegaBytes/min.
+   Finalizado em: quarta-feira, 18 de dezembro de 2024 21:32:41
+

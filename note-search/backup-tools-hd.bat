@@ -2,11 +2,11 @@
 
 @REM set params=/MIR /MT /W:15 /R:7 /NS /NC /NFL /NDL /NP /LOG+:robocopy-log.txt
 
-set params=/MIR /MT /W:10 /R:3 /NP /LOG:robocopy-log.txt
+set params=/MIR /MT /W:10 /R:3 /NP
 
 set userDirectory=Ricardo
 
 set srcPath=C:\tools
 set dstPath=D:\Desenvolvimento\Search\Backups\note-search\tools
 
-Robocopy.exe "%srcPath%" "%dstPath%" %params%
+Robocopy.exe "%srcPath%" "%dstPath%" %params% /XD "C:\tools\Java\default"

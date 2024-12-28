@@ -2,9 +2,9 @@
 
 @REM set params=/MIR /MT /W:15 /R:7 /NS /NC /NFL /NDL /NP /LOG+:robocopy-log.txt
 
-set params=/E /MT /W:10 /R:3 /NP /LOG+:robocopy-log.txt
+set params=/MIR /MT /W:10 /R:3 /NP /XJ /XD node_modules build .fvm .dart_tool
 
-set srcPath=C:\Users\Ricardo\Desenvolvimento\Projetos
-set dstPath=D:\Desenvolvimento\Projetos
+set srcPath=D:\Desenvolvimento\Projetos
+set dstPath=E:\Desenvolvimento\Projetos
 
 Robocopy.exe "%srcPath%" "%dstPath%" %params%

@@ -10,7 +10,7 @@ set userDirectory=Ricardo
 @REM set dstPath=D:\Desenvolvimento\Search\Backups\note-search\AppData
 
 set srcPath=C:\Users\%userDirectory%
-D:\Backup\AppData
+set dstPath=D:\Desenvolvimento\Search\Backups\note-search\AppData
 
 del "C:\tools\robocopy-scripts\robocopy-log.txt"
 
