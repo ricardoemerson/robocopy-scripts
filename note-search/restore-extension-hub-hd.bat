@@ -4,7 +4,7 @@
 
 set params=/MIR /MT /W:10 /R:3 /NP /XJ /XD node_modules build .fvm .dart_tool target *_old *-new
 
-set srcPath=E:\extension-hub-project\cashflow
+set srcPath=D:\extension-hub-project\cashflow
 set dstPath=C:\Users\ricardojardim\Desenvolvimento\Projetos\app-projects\cashflow
 
 Robocopy.exe "%srcPath%" "%dstPath%" %params%

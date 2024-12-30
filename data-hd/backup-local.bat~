@@ -4,16 +4,17 @@
 
 set params=/MIR /MT /W:10 /R:3 /NP
 
-set userDirectory=ricardojardim
+set userDirectory=Ricardo
 
 @REM set srcPath="C:\Users\ricardojardim"
 @REM set dstPath=D:\Desenvolvimento\Search\Backups\note-search\AppData
 
-@REM set srcPath=C:\Users\%userDirectory%
-@REM set dstPath=C:\Users\%userDirectory%\Desenvolvimento\Backups\note-search\AppData
-
 set srcPath=C:\Users\%userDirectory%
-set dstPath=C:\Desenvolvimento\Backups\note-search\AppData
+<<<<<<< HEAD
+set dstPath=E:\AppData Backup
+=======
+D:\Backup\AppData
+>>>>>>> d2a545b05f835357a260cea1a85f2276429161e5
 
 del "C:\tools\robocopy-scripts\robocopy-log.txt"
 
