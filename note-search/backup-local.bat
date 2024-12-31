@@ -1,21 +1,12 @@
 @echo off
 
 @REM set params=/MIR /MT /W:15 /R:7 /NS /NC /NFL /NDL /NP /LOG+:robocopy-log.txt
+@REM del "C:\tools\robocopy-scripts\robocopy-log.txt"
 
-set params=/MIR /MT /W:10 /R:3 /NP
+set params=/MIR /MT /W:10 /R:3 /NP /XJ /XD "C:\Users\ricardojardim\AppData\Local\Google\AndroidStudio2020.3\tmp" "C:\Users\ricardojardim\AppData\Local\Google\AndroidStudio2021.1\tmp" "C:\Users\ricardojardim\AppData\Local\Google\AndroidStudio2024.2\tmp" "C:\Users\ricardojardim\AppData\Local\Google\Chrome\User Data\Default\Code" "C:\Users\ricardojardim\AppData\Local\Google\Chrome\User Data\Default\Code Cache" "C:\Users\ricardojardim\AppData\Local\Google\Chrome\User Data\Default\Service Worker" "C:\Users\ricardojardim\AppData\Roaming\Macro Deck\credentials" "C:\Users\ricardojardim\AppData\Local\Mozilla\Firefox\Profiles\1f1inxz9.default-release\cache2"
 
-set userDirectory=ricardojardim
-
-@REM set srcPath="C:\Users\ricardojardim"
-@REM set dstPath=D:\Desenvolvimento\Search\Backups\note-search\AppData
-
-@REM set srcPath=C:\Users\%userDirectory%
-@REM set dstPath=C:\Users\%userDirectory%\Desenvolvimento\Backups\note-search\AppData
-
-set srcPath=C:\Users\%userDirectory%
-set dstPath=C:\Desenvolvimento\Backups\note-search\AppData
-
-del "C:\tools\robocopy-scripts\robocopy-log.txt"
+set srcPath="C:\Users\ricardojardim"
+set dstPath=D:\Backups\note-search\AppData
 
 setlocal enabledelayedexpansion
 set path[0]=.android
@@ -85,7 +76,7 @@ set path[62]=AppData\Roaming\VOVSOFT
 for /l %%p in (0,1,62) do (
   echo  - Copiando !path[%%p]!...
 
-  Robocopy.exe "%srcPath%\!path[%%p]!" "%dstPath%\!path[%%p]!" %params% /XD "C:\Users\Ricardo\AppData\Local\Google\AndroidStudio2021.1\tmp" "C:\Users\Ricardo\AppData\Local\Google\AndroidStudio2020.3\tmp" "C:\Users\Ricardo\AppData\Local\Google\Chrome\User Data\Default\Code" "C:\Users\Ricardo\AppData\Local\Google\Chrome\User Data\Default\Code Cache" "C:\Users\Ricardo\AppData\Local\Google\Chrome\User Data\Default\Service Worker" "C:\Users\Ricardo\AppData\Roaming\Macro Deck\credentials" "C:\Users\Ricardo\AppData\Local\Mozilla\Firefox\Profiles\1f1inxz9.default-release\cache2"
+  Robocopy.exe "%srcPath%\!path[%%p]!" "%dstPath%\!path[%%p]!" %params%
 )
 
-Robocopy.exe "%srcPath%" "%dstPath%" .gitconfig .ps_history .wslconfig .yarnrc /LOG+:robocopy-log.txt
+Robocopy.exe "%srcPath%" "%dstPath%" .gitconfig .ps_history .wslconfig .yarnrc

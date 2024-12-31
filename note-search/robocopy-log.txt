@@ -221,3 +221,62 @@ Diret¢rios:         1         0         1         0         0         0
 N.§ de Vezes:   0:00:00   0:00:00                       0:00:00   0:00:00
    Finalizado em: ter‡a-feira, 24 de dezembro de 2024 10:47:26
 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy para Windows                              
+-------------------------------------------------------------------------------
+
+  Iniciado: segunda-feira, 30 de dezembro de 2024 23:47:21
+   Origem : C:\Users\ricardojardim\
+     Destino : C:\Desenvolvimento\Backups\note-search\AppData\
+
+    Arquivos: .gitconfig
+	    .ps_history
+	    .wslconfig
+	    .yarnrc
+	    
+  Op‡äes: /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   4	C:\Users\ricardojardim\
+	  Mais Recente		    6181	.ps_history100%  
+
+------------------------------------------------------------------------------
+
+               Total   Copiada  IgnoradaIncompatibilidade     FALHA    Extras
+Diret¢rios:         1         0         1         0         0         0
+ Arquivos:         4         1         3         0         0         0
+    Bytes:     6.7 k     6.0 k       751         0         0         0
+N.§ de Vezes:   0:00:00   0:00:00                       0:00:00   0:00:00
+   Finalizado em: segunda-feira, 30 de dezembro de 2024 23:47:21
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy para Windows                              
+-------------------------------------------------------------------------------
+
+  Iniciado: segunda-feira, 30 de dezembro de 2024 23:47:30
+   Origem : C:\Users\ricardojardim\
+     Destino : C:\Desenvolvimento\Backups\note-search\AppData\
+
+    Arquivos: .gitconfig
+	    .ps_history
+	    .wslconfig
+	    .yarnrc
+	    
+  Op‡äes: /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   4	C:\Users\ricardojardim\
+
+------------------------------------------------------------------------------
+
+               Total   Copiada  IgnoradaIncompatibilidade     FALHA    Extras
+Diret¢rios:         1         0         1         0         0         0
+ Arquivos:         4         0         4         0         0         0
+    Bytes:     6.7 k         0     6.7 k         0         0         0
+N.§ de Vezes:   0:00:00   0:00:00                       0:00:00   0:00:00
+   Finalizado em: segunda-feira, 30 de dezembro de 2024 23:47:30
+
